@@ -1,9 +1,9 @@
-# DVD Rental API
+# Pipeline Exercise
 * Overview
 * Repo content
 * Setup
 * Server calls
-* Acknowledgment
+* Stopping the service.
 
 ## Overview:
 The web service builds 2 containers; flask web application container and a mongoDB NoSQL database.
@@ -15,10 +15,9 @@ The web service builds 2 containers; flask web application container and a mongo
   * main.py: The flask app code with the logic of handling the GET calls.
   * requirements.txt: python lib requirements to run the service.
 
-* data: 2 csv files.
-  * sample_mixed.csv: the original csv with ";" as delimiter.
-  * sample_mixed_comma.csv: the original file with the delimiter changed
-  to ","; to make it easier to load the data to mongodb. The file is manipulated with pandas.
+* data: 1 csv file:
+  * sample_mixed_comma.csv: the sample_mixed.csv  file with the delimiter changed
+  to "," using pandas.
 
 ## Setup:
 Make sure you have docker and docker-compose installed.
